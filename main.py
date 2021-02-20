@@ -7,7 +7,7 @@ import ntptime
 
 wifi=network.WLAN(network.STA_IF) 
 wifi.active(True) 
-wifi.connect("CIK1000M_2.4G_0343","9813334a21a0") 
+wifi.connect("SSID","WIFI PASSWOrD") 
 time.sleep(8)
 
 i2c = SoftI2C(scl=Pin(18), sda=Pin(19), freq=100000)
